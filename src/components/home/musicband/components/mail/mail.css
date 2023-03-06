@@ -1,0 +1,92 @@
+.Mail{
+    height: 450px;
+    background-color: #333;
+    color: #fff;
+}
+.Mail img{
+    display: flex;
+    padding: 80px 45%;
+}
+.Mail_Ul{
+    /* position: absolute; */
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 14px;
+
+}
+.Mail_UlLi a{
+    text-decoration: none;
+    color: #fff;
+margin: 5px 15px;
+}
+.Mail_UlLi a:hover{
+    color:  #e21f2f;
+
+}
+.Mail_btn{
+    position: absolute;
+    margin-left: 42%;
+    margin-top: 20px;
+    font-size: 13px;
+    color: #fff;
+    overflow: hidden;
+    backface-visibility: hidden;
+    padding: 15px 35px;
+    min-width: 200px;
+    background-color: #212121;
+}
+.Mail_btn:hover{
+    background-color:  #e21f2f;
+}
+.MailPopup{
+    position: absolute;
+    z-index:200 ;
+    left: 34%;
+    top: 1262%;
+    background-color: #fff;
+    width: 490px;
+   height: 200px;
+   text-align: center;
+}
+.MailPopup input{
+    margin-left: 30px;
+    padding: 10px 10px 10px 20px;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    color: #777;
+  
+}
+.MailPopupBtn{
+    margin-left: 7px;  
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    padding: 11px 10px 11px 20px;
+background-color: #e21f2f;
+border: 0;
+}
+.MailPopupTitle{
+  padding-top: 35px;
+    color: #171719;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.MailPopupIcon{
+    position: absolute;
+    top: 3%;
+    left: 91%;
+    color:#333;
+    opacity: 0.65;
+    padding: 0 0 18px 10px;
+    font-weight: lighter;
+    font-size: 22px;
+
+}
+.MailPopupIcon:hover{
+    color: black;
+}

@@ -1,0 +1,80 @@
+
+.Music{
+    background-color: black;
+    height: 750px;
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    margin: auto;
+   padding: 100px 25px;
+}
+.Music_heading{
+    font-family: 'TrashHand', arial;
+    
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    margin: 0px auto;
+}
+.Music_carousel1,.Music_carousel2,.Music_carousel3{
+    text-align: left;
+    margin-top: 50px;
+    height:400px;
+    width: 100%;
+    padding: 0px 0px;
+display: flex;
+flex-direction: row;
+background-color:black;
+color: white;
+
+}
+
+.MusicItem {
+padding: 10px 15px;
+    margin: 5px 20px;
+    text-align: center;
+}
+.MusicItem img{
+    margin-bottom: 30px;
+}
+.MusicItem img:hover{
+    opacity: 0.9;
+}
+.MusicItem span{
+font-family: Arial, Helvetica, sans-serif;
+
+    padding-top: 20px;
+    text-align: center;
+color: #AAAAAA;
+    font-size: 12px;
+    margin: 20px 5px;
+}
+.MusicItem span a{
+font-family: Arial, Helvetica, sans-serif;
+
+color: #AAAAAA;
+
+    margin: 20px 4px;
+    text-align: center;
+
+    color: #fff;
+    text-decoration: none;
+}
+.MusicItem span a:hover{
+    color: #e21f2f;
+}
+.MusicItem span a {
+
+color: #AAAAAA;
+    text-decoration: none;
+
+}
+.MusicTitle{
+    font-size: 20px;
+    margin-top: 25px;
+    text-align: center;
+    color: white;
+}
+.MusicItem:hover .BoxTitle{
+    color: #e21f2f;
+}

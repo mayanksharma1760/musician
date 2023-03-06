@@ -1,0 +1,137 @@
+.pastevent {
+  background-color: black;
+  height: 1100px;
+  text-align: center;
+}
+
+.pastevent_heading {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding-top: 100px;
+}
+
+.pastevent_content {
+  margin: 80px;
+}
+
+.pastevent_content img {
+  margin: 10px;
+}
+
+.pasteventContentButton {
+  width: 180px;
+  height: 55px;
+  margin: 80px auto;
+  color: white;
+  background-color: black;
+  border: .1px solid rgb(123, 123, 123);
+  font-weight: bold;
+
+
+}
+
+.pasteventContentButton:hover {
+  background-color: #34DDDD;
+}
+
+
+.pasteventContentButtonIcon {
+  margin-right: 8px;
+}
+
+.pastevent_images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.pastevent_imagesWrapper {
+  width: 24%;
+}
+
+.pastevent_imagesWrapperImg {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  cursor: pointer;
+  margin: 10px;
+}
+
+
+
+
+.pastevent_contentSlider {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.613);
+  z-index: 999;
+  display: flex;
+  align-items: center;
+}
+
+.pastevent_contentSliderWrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pastevent_contentSliderWrapperImg {
+  width: 30%;
+  height: 40vh;
+}
+
+.pastevent_contentSliderClose {
+  position: absolute;
+  top: 155px;
+  right: 445px;
+  font-size: 30px;
+  color: lightgray;
+  cursor: pointer;
+}
+
+.pastevent_contentSliderArrow {
+  margin: 20px;
+  font-size: 50px;
+  color: lightgray;
+  cursor: pointer;
+}
+.pastevent_imagesHoverIcon{
+  position: relative;
+  top: 50%;
+  color: transparent;
+  left: 4%;
+  font-size: 20px;
+  cursor: pointer;
+}
+.pastevent_imagesWrapperImg:hover{
+opacity: 0.6;
+}
+.pastevent_imagesWrapperImg :hover .pastevent_imagesHoverIcon {
+    color: #fff;
+    opacity: 1;
+}
+
+
+/* 
+@media (max-width: 700px) {
+  .pastevent {
+    height: 2400px;
+  }
+
+  .pasteventContentButton {
+    width: 130px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    font-weight: bold;
+
+  }
+} */

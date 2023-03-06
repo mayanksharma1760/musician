@@ -1,0 +1,56 @@
+.sound{
+    color: white;
+    width: 100%;
+    background: black;
+    text-align: center;
+    height: 750px;
+    padding-bottom: 150px;
+  }
+
+  .sound_heading{
+  padding-top: 90px;
+  padding-bottom: 40px;
+  text-align: center;
+  font-size: 40px;
+  }
+
+  .soundButton{
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+    background-color: inherit;
+    color: white;
+    height: 60px;
+    width: 220px;
+    margin: 60px auto;
+  border-radius: 5px;
+  border: .1px solid rgb(123, 123, 123);
+}
+
+  .soundButton:hover{
+    background-color:  #34DDDD;
+  }
+  .soundButtonIcon{
+    margin-right: 8px;
+  }
+  .soundButton:hover .soundButtonIcon{
+    transform: rotate(360deg);
+    animation: spin 1.5s infinite linear;
+  }
+
+  @keyframes spin{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+  @media (max-width: 700px){
+.soundHeading{
+  font-size: 32px;
+}
+.soundHeadingLine{
+  margin: 10px auto;
+}
+  }

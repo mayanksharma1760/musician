@@ -1,0 +1,106 @@
+.carousel {
+  display: flex;
+  flex-direction: row;
+}
+
+.carousel-cell1 {
+  width: 1349px;
+  height: 842.125px;
+  color: white;
+  background-image: url('https://www.pixel-industry.com/html/musician/musician-html/img/slider/musician-music-artist-slide-01.jpg');
+}
+
+.carousel-cell2 {
+  width: 1349px;
+  height: 842.125px;
+  color: white;
+  background-image: url('https://www.pixel-industry.com/html/musician/musician-html/img/slider/musician-music-artist-slide-02.jpg');
+}
+
+.carousel-cell1Desc,
+.carousel-cell2Desc {
+  position: absolute;
+  left: 0px;
+  top: 330px;
+  margin-left: 100px;
+  /* padding: 10px; */
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.carousel-cell1Heading,
+.carousel-cell2Heading {
+  position: absolute;
+  left: 0px;
+  top: 370px;
+  margin-left: 100px;
+  padding: 0px;
+  font-size: 60px;
+  line-height: 72px;
+}
+
+.carousel-cell1Desc2,
+.carousel-cell2Desc2 {
+  position: absolute;
+  left: 0px;
+  top: 460px;
+  margin-left: 100px;
+  padding: 0px;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.carousel-cell1Button,
+.carousel-cell2Button {
+  border: 1px solid white;
+  position: absolute;
+  left: 0px;
+  top: 550px;
+  margin-left: 100px;
+  padding: 15px 50px;
+  font-size: 12px;
+  line-height: 26px;
+  color: white;
+}
+
+.carousel-cell1Button:hover,
+.carousel-cell2Button:hover {
+  border: 1px solid #34DDDD;
+  color: #34DDDD;
+}
+
+@media (max-width: 568px) {
+
+
+  .carousel-cell1 {
+    width: 100% !important;
+    margin: 0!important;
+  }
+
+  .carousel-cell2 {
+    width: 100% !important;
+    margin: 0!important;
+  }
+
+  .carousel-cell1Desc,
+  .carousel-cell2Desc {
+    font-size: 16px!important;
+  }
+
+  .carousel-cell1Heading,
+  .carousel-cell2Heading {
+  
+    font-size: 42px!important;
+  }
+
+  .carousel-cell1Desc2,
+  .carousel-cell2Desc2 {
+ 
+    font-size: 16px!important;
+  }
+
+  .carousel-cell1Button,
+  .carousel-cell2Button {
+   
+  }
+}

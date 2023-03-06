@@ -1,0 +1,56 @@
+@import url(https://allfont.net/allfont.css?fonts=trashhand);
+
+.Front{
+    font-family: 'TrashHand', arial;
+    width: 1349px;
+    height: 723.682px;
+    margin-top: -61px;
+    margin-left: 0px;
+    background:no-repeat;
+    z-index: 1;
+background-image: url('https://www.pixel-industry.com/html/musician/musician-html/img/slider/musician-music-band-slide-01.jpg')
+}
+.Front_date{
+    font-family: 'TrashHand', arial;
+    position: absolute;
+    left: 600px;
+    top: 390px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 90px;
+    line-height: 130px;
+    color: #e21f2f;
+   
+}
+.Front_heading{
+    font-family: 'TrashHand' arial;
+    position: absolute;
+    left: 260px;
+    top: 515px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 50px;
+    color: white;
+    
+}
+.Front_button{
+    font-family: 'TrashHand', arial;
+    position: absolute;
+    left: 600px;
+    top: 635px;
+    margin: 0px;
+    padding: 15px 35px;
+    font-size: 21px;
+    line-height: 26px;
+    background-color: #e21f2f;
+    color: white;
+    }
+
+    .FrontBorder{
+        position: relative;
+        top: 57%;
+      /* grid-column:  1/20; */
+      grid-row: 1; 
+      padding-top: 20%; 
+      z-index: 20;
+    }

@@ -1,0 +1,64 @@
+.Quote {
+  display: flex;
+  flex-direction: row;
+  height: 550px;
+  width: 100%;
+  background-color: rgb(69, 67, 67);
+  text-align: center;
+}
+.m{
+  height: 300px;
+  width: auto;
+}
+
+.QuoteImg img {
+  width: 630px;
+  height: 550px;
+  display: flex;
+  justify-content: left;
+}
+
+.Quote_Text{ 
+  opacity: 1;
+  /* z-index: 2; */
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 40px;
+  margin-top: 200px;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.Quote_Writer{
+  text-align: center;
+  margin: 25px;
+  padding-bottom: 30px;
+  font-size: 1rem;
+  color: white;
+}
+
+.carousel-control-prev-icon {
+  display: none!important;
+}
+
+.carousel-control-next-icon {
+  display: none!important;
+}
+
+
+
+@media (max-width: 560px) {
+  .Quote {
+    flex-direction: column;
+    height: fit-content;
+  }
+  .QuoteImg img{
+    width: 330px!important;
+  }
+  .Quote1Writer,
+  .Quote2Writer,
+  .Quote3Writer {
+    margin: 30px 0px;
+  }
+
+}

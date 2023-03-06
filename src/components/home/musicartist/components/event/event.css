@@ -1,0 +1,94 @@
+.event{
+    height: 1000px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .event_heading{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 50px;
+    padding-top: 150px;
+  }
+  .event_columns{
+    padding: 15px 0;
+    margin: 0px 100px;
+    /* height: 40px!important; */
+  }
+  .event_columnsFlex{
+  display: flex;
+  flex-direction: row;
+  }
+  .event_columnsFlexTitle {
+    font-size: 20px;
+  }
+  .event_columnsFlexButton{
+    margin-left: auto;
+  }
+  .event_columnsFlexButton1{
+    color: #fff;
+    background-color: #212121;
+    height: 45px;
+    display: inline-block;
+    padding: 6px 22px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 600;    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    font-size: 13px;
+  
+  }
+  .event_columnsFlexButton1:hover{
+    background-color:  #1197A1;
+   
+  
+  }
+  .event_columnsDesc{
+    text-align: left;
+    font-size: 13px;
+    padding-bottom:6px ;
+  }
+  .event_columnsFlexButton2{
+    margin-left: 5px;
+  background-color: #1197A1;
+  width: 60px;
+  height: 45px;
+  
+  }
+  .eventButton{
+    background-color: inherit;
+      color: white;
+      height: 60px;
+      width: 190px;
+      margin: 50px auto;
+    border-radius: 5px;
+    border: .1px solid rgb(179, 179, 179)
+      }
+  .eventLine{
+   
+    opacity: 0.25;
+width: 85%; 
+margin: 15px auto ;
+ }
+  .eventButton:hover{
+    background-color: #1197A1;
+  }
+  .eventButtonIcon{
+    margin-right: 8px;
+    animation-name: fadeInUp;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+    @media (max-width: 700px){
+      .event{
+        padding: 15px;
+      }
+      .event_heading{
+        font-size: 36px;
+      }
+    }

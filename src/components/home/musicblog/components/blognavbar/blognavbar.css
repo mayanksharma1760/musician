@@ -1,0 +1,135 @@
+.Blognavbar {
+  position:sticky!important;
+  background-color: black;
+  color: #fff;
+  border-bottom: 1px solid#333334;
+  z-index: 4000;
+}
+
+
+.Blognavbar_Title {
+  margin-left: 30px;
+  float: left;
+  margin-right: 270px;
+}
+
+.Blognavbar_mainItems {
+  margin-left: 0;
+  display: flex;
+  flex-direction: row;
+  margin-right: 200px;
+}
+
+.Blognavbar_IconItem:hover {
+  color: #e21f2f;
+}
+
+.NavDropdownItem {
+  margin: auto 0;
+  color: #EEEEEE !important;
+  font-size: 12px !important;
+  padding: 0px 3px !important;
+}
+
+.NavDropdownItem:hover {
+  color: #e21f2f !important;
+}
+
+.Blognavbar_Cart {
+  display: inline !important;
+  cursor: pointer;
+  color: #AAAAAA !important;
+  padding: 0 20px 0 0 !important;
+  height: 20px;
+  margin: auto 2px;
+  margin-left: 8px;
+  margin-right: 0 !important;
+
+}
+
+.Blognavbar_cartCount {
+  background-color: #e21f2f;
+  position: absolute;
+  bottom: 50%;
+  left: 1037px;
+  border-radius: 50%;
+  padding: 6px;
+  font-size: 7px;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  margin-left: 10px;
+
+}
+
+.Blognavbar_Icon {
+  display: flex;
+  flex-direction: row;
+  float: right;
+  margin: auto 0 !important;
+
+}
+
+.Blognavbar_Icon:hover {
+  color: #e21f2f;
+}
+
+.Blognavbar_SearchIcon {
+  color: #AAAAAA;
+  font-size: 13px;
+  position: relative;
+  right: 10px;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: inherit !important;
+}
+
+.me-2 {
+  margin-top: 10px;
+  margin-left: 5px;
+  width: 140px;
+  height: 35px;
+  position: absolute;
+  margin-right: 0.5rem !important;
+  top: 76%;
+  right: 83.8%;
+  padding: 0px 11px;
+  font-size: 12px;
+  color: #AAAAAA !important;
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  border: none !important;
+  border-radius: 0;
+}
+
+
+.BlognavbarLine {
+  text-align: center;
+  height: 57px;
+  width: 0.2px;
+  margin: 0 5px;
+  border: .1px solid #333334;
+}
+
+.Blognavbar_ItemsLeftline {
+  position: relative;
+  top: -8px;
+  left: 28%;
+  height: 57px;
+  width: 0.2px;
+  margin: auto;
+  border: .1px solid #333334;
+}
+
+.Blognavbar_ItemsRightline {
+  position: relative;
+  top: -8px;
+  left: 17%;
+  height: 57px;
+  margin: auto;
+  border: 0.1px solid #333334;
+}

@@ -1,0 +1,109 @@
+.Detail{
+    background-color: black;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: row;
+}
+.Detail img{
+    margin-right: 15px;
+}
+.DetailText{
+    display: flex;
+    flex-direction: column;
+}
+.DetailTextList{
+    list-style: none;
+    font-size: 13px;
+    padding-bottom: 0;
+    color: #AAAAAA;
+    font-weight: normal;
+    display: flex;
+    flex-direction: column;
+}
+.DetailTextListItem{
+    display: flex;
+    flex-direction: row;
+}
+.DetailTextList a{
+    color: #AAAAAA;
+
+}
+.DetailTextListItemIcon{
+    margin:3px 5px;
+    
+    
+}
+
+.DetailTextPara1{
+    margin-top: 50px;
+    text-align:left;
+    padding-bottom: 30px;
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 300;    
+    color: #fff;
+}
+.DetailTextPara2{
+    text-align:left;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;    
+
+}
+.DetailTextShareicon{
+    margin:50px 0;
+    text-align: left;
+    color: #fff;
+}
+.DetailTextShareiconFb{
+    font-size: 24px;
+    cursor: pointer;
+margin-right: 8px;
+}
+.DetailTextShareiconTwitter{
+    cursor: pointer;
+    font-size: 24px;
+
+    margin: 0px 8px;
+    padding: 0 0px;
+
+}
+.DetailTextShareiconGoogle{
+    font-size: 27px;
+    cursor: pointer;
+    margin: 0px 8px;
+
+}
+.DetailTextBtnIcon{
+    margin-right: 4px;
+}
+.DetailTextShareiconFb:hover{
+    color: #3b5998 
+
+}
+.DetailTextShareiconTwitter:hover{
+color: #00abf0
+
+}
+.DetailTextShareiconGoogle:hover{
+color: #dd4b39;
+
+}
+.DetailTextBtn{
+    display: block;
+    float: left;
+    text-decoration: none;
+    height: 50px;
+    width: 180px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #34DDDD;
+    border: 1px solid transparent;
+}
+.DetailTextBtn:hover .DetailTextBtnIcon{
+
+}
+.DetailTextBtn:hover{
+    background-color: #2ec0c0;
+}

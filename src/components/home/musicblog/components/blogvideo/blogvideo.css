@@ -1,0 +1,74 @@
+.Blogvideo{
+    padding:120px 80px;
+}
+.BlogvideoHeading{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.BlogvideoHeading a{
+    color: #e21f2f;
+    text-decoration: none;
+}
+.BlogvideoHeadingline{
+    width: 30px;
+    margin: 10px auto;
+    border:1px solid  #e21f2f;
+    border-width: 0.01em;
+    margin-bottom: 50px;
+}
+
+.BlogvideoRow{
+    display: flex;
+    flex-direction: row;
+}
+.BlogvideoRowBox{
+    margin:10px 15px;
+}
+.BlogvideoRowBox img:hover{
+    opacity: 0.9;
+}
+
+.BlogvideoRowBoxText{
+    color: #171719;
+    
+}
+.BlogvideoRowBoxTextBy{
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 13px;
+    margin-bottom: 20px;
+
+}
+.BlogvideoRowBoxTextBy a{
+    padding: 0 8px;
+    text-decoration: none;
+    color: #171719;
+}
+.BlogvideoRowBoxTextBy p{
+    padding: 0 8px;
+
+    display: inline;
+}
+.BlogvideoRowBoxTextByActive{
+    color: #e21f2f!important;
+}
+.BlogvideoRowBoxTextBy a:hover{
+color: #e21f2f;
+}
+.BlogvideoRowBoxTextTitle{
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #171719;
+
+}
+.BlogvideoRowBoxTextTitle:hover{
+    color: #e21f2f;
+}
+.BlogvideoTag{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}

@@ -1,0 +1,248 @@
+.Dates{
+    font-family: 'TrashHand', arial;
+height: 1000px;
+background-color: black;
+width: 100%;
+color: #fff;
+padding: 0 50px;
+text-align: center;
+}
+.Dates_heading{
+font-family: "TrashHand", Arial;
+    padding: 40px 0;
+    font-size: 50px;
+    text-align: center;
+    color:#fff;
+}
+.Dates_box{
+    font-family: 'TrashHand', arial;
+
+text-align: left;
+/* padding:0 0 15px 80px; */
+display: flex;
+flex-direction: column;
+
+}
+.Dates_boxRow{
+    font-family: 'TrashHand', arial;
+
+    display: flex;
+flex-direction: row;
+width: 100%;
+margin: 15px 0;
+    text-align: left;
+justify-content: left;
+
+
+
+}
+.Dates_boxRowSec1{
+    font-family: 'TrashHand', arial;
+
+    text-align: left;
+    display: flex;
+    flex-direction: row;  
+    justify-content: left;
+
+}
+.Dates_boxRowSec2{
+    font-family: 'TrashHand', arial;
+
+    align-items: right;
+    display: flex;
+    flex-direction: row; 
+    justify-content: left;
+    position: relative;
+    left: 12%;
+}
+
+.Dates_boxRowCell{
+    font-family: 'TrashHand', arial;
+
+    text-align: left;
+    height: 90px;
+    width: 190px;
+    margin-left: 18px;
+    /* margin: auto ; */
+    display: flex;
+    flex-direction: column;
+}
+
+.Dates_boxRowCellSubtitle{
+    font-family: 'TrashHand', arial;
+
+    text-align: left;
+ /* line-height: 0px; */
+    /* padding-bottom: 30px; */
+    font-size: 16px;
+    color: #AAAAAA; 
+
+}
+.Dates_boxRowCellTitle{
+    font-family: 'TrashHand', arial;
+
+    text-align: left;
+    font-size: 30px;
+
+}
+.Dates_boxRowCellTitle a{
+    font-family: 'TrashHand', arial;
+
+    text-decoration: none;
+    color:#fff ;
+   
+}
+.Dates_boxRowCellBtn{
+    font-family: 'TrashHand', arial;
+
+    margin: 12px 15px;
+   
+    min-width: 165px;
+    background-color: #212121;
+    font-size: 18px;
+   color: #fff;
+   display: block;
+    position: relative;
+    font-weight: 600;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    margin-bottom: 30px;
+}
+.Dates_boxRowCellBtn:hover{
+    background-color: #e21f2f;
+}
+
+
+
+.Dates_boxLine{
+    position: relative;
+    right: 45px;
+    opacity: 0.25;  
+    width: 90%; 
+    margin:auto ;
+}
+.Dates_boxRowCellCombonedbtn{
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    margin: 0px 5px;
+    font-size: 8px;
+    justify-content: center;
+    align-items: center;
+    background-color: #212121;
+    margin-left: 30px;
+}
+.Dates_boxRowCellCombonedbtn:hover{
+    background-color: #e21f2f;
+    cursor: pointer;
+
+}
+.Dates_btn{
+    cursor: pointer;
+
+    height: 55px;
+    width: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "TrashHand", Arial, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: #fff;
+    background-color:#212121;
+    margin: 60px auto;
+    padding: 15px;
+
+}
+.Dates_btn:hover{
+    background-color:#e21f2f;
+}
+
+/* 
+.Dates_box{
+    padding: 10px 75px;
+    display: flex;
+    flex-direction: column;
+}
+.Dates_boxEvents{
+    margin: 25px 0px;
+
+    display: inline;
+  
+}
+.Dates_boxEventsRow{
+    display: inline;
+    padding: 20px 0;
+    border-bottom: 1px solid #212121;
+}
+
+.Dates_boxEventsRowCell{
+    
+    margin: 0;
+    display: table-cell;
+    vertical-align: middle;
+}
+.Dates_boxEventsRowCell span{
+
+    width: 100%;
+    float: left;
+    color: #fff;
+}
+.Dates_boxEventsRowCell a{
+    text-decoration: none;
+    color: #fff;
+}
+.Dates_boxEventsRowCell{
+    float: left;
+
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.Dates_boxEventsRowCell a{
+    
+    text-decoration: none;
+    color: #fff;
+}
+.Dates_boxEventsRowCellSubtitle{
+    text-align: left;
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 17px;
+    color: #AAAAAA;
+    margin-bottom: 3px;
+}
+.Dates_boxEventsRowCellTitle{
+     text-align: left;
+    font-size: 30px;
+    font-family: "TrashHand", Arial, sans-serif; 
+}
+.Dates_boxEventsRowCellBtn{
+    margin: 10px 30px;
+    padding: 15px 20px;
+    min-width: 180px;
+    background-color: #212121;
+    font-size: 18px;
+   color: #fff;
+   display: block;
+    position: relative;
+    font-weight: 600;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+.Dates_boxEventsRowCellBtn span{
+    
+}
+
+.Dates_boxEventsRowCellBtn:hover{
+    background-color: #e21f2f;
+}
+.Dates_boxEventsRowCellCombinebtn{
+    background-color: #212121;
+
+} */

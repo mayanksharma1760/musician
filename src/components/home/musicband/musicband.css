@@ -1,0 +1,35 @@
+
+  @import url(https://allfont.net/allfont.css?fonts=trashhand);
+
+.Musicband{
+    font-family: "TrashHand", Arial, sans-serif!importantKC;
+}
+.MusicbandImg1{
+  height: 545px;
+background: url('https://www.pixel-industry.com/html/musician/musician-html/img/pics/bkg-img-06.jpg');
+
+}
+.MusicbandImg1Borderup{
+position: relative;
+top: -5%;
+}
+.MusicbandImg1Borderdown{
+  position: relative;
+  top: 81%;
+}
+.MusicbandImg2{
+  height: 545px;
+  background: url('https://www.pixel-industry.com/html/musician/musician-html/img/pics/bkg-img-07.jpg');
+}
+.MusicbandImg3{
+  height: 545px;
+  background: url('https://www.pixel-industry.com/html/musician/musician-html/img/pics/bkg-img-08.jpg');
+}
+.MusicbandImg4{
+  height: 545px;
+  background: url('https://www.pixel-industry.com/html/musician/musician-html/img/pics/bkg-img-09.jpg');
+}
+.MusicbandImg5{
+  height: 545px;
+  background: url('https://www.pixel-industry.com/html/musician/musician-html/img/pics/bkg-img-10.jpg');
+}

@@ -1,0 +1,58 @@
+.Bandfront{
+    background: url('https://www.pixel-industry.com/html/musician/musician-html/img/slider/musician-store-slide-01.jpg');
+    height: 650px;
+text-align: center;
+
+}
+.BandfrontImg1{
+    position: relative;
+    right: 30%;
+}
+.BandfrontImg2{
+    position: relative;
+    top: 10%;
+    right: 38%;
+}
+.BandfrontDesc1{
+    position: relative;
+    left: 11%;
+    bottom: 48%;
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    
+    color: #DDDDDD;
+}
+.BandfrontHeading{
+    color: #fff;
+    font-size: 60px;
+    position: relative;
+    left: 20%;
+    bottom: 47%;
+
+}
+.BandfrontDesc2{
+    position: relative;
+    left: 14%;
+    bottom: 45%;
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
+    color: #DDDDDD;
+
+
+}
+.BandfrontBtn{
+    position: relative;
+    left: 11%;
+    bottom: 35%;
+    margin: 0px;
+    padding: 15px 50px;
+    font-size: 13px;
+    font-weight: 900;
+    border: none;
+}
+.BandfrontBtn:hover{
+    color: #fff;
+    background-color: #e21f2f;
+}

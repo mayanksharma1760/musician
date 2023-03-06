@@ -1,0 +1,85 @@
+.Feature{
+    background-color: black;
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+   padding: 100px 65px;
+}
+.Feature_heading{
+    font-family: 'TrashHand', arial;
+
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    padding:  60px 0px;
+}
+.Feature_box{
+    display: flex;
+    flex-direction: row;
+}
+.Feature_boxItem {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 20px;
+}
+.Feature_boxItem a {
+    font-family: 'TrashHand', arial;
+
+    text-decoration: none;
+}
+.Feature_boxItemTitle{
+    font-family: 'TrashHand', arial;
+
+    font-size: 20px;
+    margin-top: 35px;
+    text-align: center;
+    color: white;
+}
+.Feature_boxItemPrice{
+    margin-top: 8px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #AAAAAA;
+}
+.Feature_boxItemCart{
+    text-align: center;
+    width: 120px;
+    margin:auto ;
+    z-index: 2;
+    display: none;
+    color: #fff;
+    background-color: #e21f2f;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 7px;
+}
+
+.Feature_boxItem:hover  .Feature_boxItemPrice{
+    display: none;
+}
+.Feature_boxItem:hover  .Feature_boxItemCart{
+    display: block;
+}
+.Feature_boxItem:hover .Feature_boxItemTitle{
+    color: #e21f2f;
+}
+.Feature_btn{
+    cursor: pointer;
+    /* height: 65px; */
+    width: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "TrashHand", Arial, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: #fff;
+    background-color:#212121;
+    margin: 60px auto;
+    padding: 15px;
+}
+.Feature_btn:hover{
+    background-color:#e21f2f;
+}

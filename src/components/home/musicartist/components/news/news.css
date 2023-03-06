@@ -1,0 +1,100 @@
+
+.news{
+    height: 570px;
+    background-color: black;
+}
+.newsHeading{
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    line-height: 54px;
+    margin-bottom: 20px;
+}
+.newsCarousel1,.newsCarousel2{
+    text-align: left;
+    margin-top: 50px;
+    height:400px;
+    width: 100%;
+    padding: 0px 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color:black;
+    color: white;
+}
+.newsCarousel1Column1,
+.newsCarousel1Column2,
+.newsCarousel1Column3,
+.newsCarousel2Column1,
+.newsCarousel2Column2,
+.newsCarousel2Column3{
+    margin-right: 20px;
+    width: 30%;
+
+}
+.newsCarousel1Column1Date,
+.newsCarousel1Column2Date,
+.newsCarousel1Column3Date,
+.newsCarousel2Column1Date,
+.newsCarousel2Column2Date,
+.newsCarousel2Column3Date
+{
+    font-size: small;
+    color:  #34DDDD;
+}
+
+.newsCarousel1Column1Title a,
+.newsCarousel1Column2Title a,
+.newsCarousel1Column3Title a,
+.newsCarousel2Column1Title a,
+.newsCarousel2Column2Title a,
+.newsCarousel2Column3Title a{
+    text-decoration: none;
+    color: white;
+    line-height: 32px;
+    margin-bottom: 35px;
+    font-size: 21px;}
+
+.newsCarousel1Column1Title,
+.newsCarousel1Column2Title,
+.newsCarousel1Column3Title,
+.newsCarousel2Column1Title,
+.newsCarousel2Column2Title,
+.newsCarousel2Column3Title{
+    margin-bottom: 25px;
+}
+
+.newsCarousel1Column1Title a:hover,
+.newsCarousel1Column2Title a:hover,
+.newsCarousel1Column3Title a:hover,
+.newsCarousel2Column1Title a:hover,
+.newsCarousel2Column2Title a:hover,
+.newsCarousel2Column3Title a:hover{
+color: #34DDDD;
+}
+.newsCarousel1Column1Desc p,
+.newsCarousel1Column2Desc p,
+.newsCarousel1Column3Desc p,
+.newsCarousel2Column1Desc p,
+.newsCarousel2Column2Desc p,
+.newsCarousel2Column3Desc p
+{
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 300;
+    color: #888888;
+}
+.newsCarousel1Column1DescReadmore,
+.newsCarousel1Column2DescReadmore,
+.newsCarousel1Column3DescReadmore,
+.newsCarousel2Column1DescReadmore,
+.newsCarousel2Column2DescReadmore,
+.newsCarousel2Column3DescReadmore
+{
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,145 @@
+.Artistnavbar {
+  height: 60px;
+  width: 100%;
+  z-index: 2300;
+  background-color: inherit ;
+}
+
+.Artistnavbar.Positionchange {
+  background-color: black;
+  position: fixed!important;
+
+}
+
+.Artistnavbar_Title {
+  padding: 10px;
+  padding-bottom: 50px;
+  margin: 50px 50px;
+  margin-right: 350px;
+
+}
+
+.Artistnavbar_Title img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+
+.ArtistnavbarItem {
+  color: #EEEEEE !important;
+  font-size: 12px !important;
+  padding: 0px 20px !important;
+  margin-top: 12px !important;
+  margin: 0 15px !important;
+  padding: 0 !important;
+
+}
+
+.ArtistnavbarItem:hover {
+  color: #34DDDD !important;
+}
+
+.ArtistnavbarItemDropdown {
+  background-color: black
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-item {
+  font-size: 12px;
+  text-align: left;
+  color: #AAAAAA !important;
+  min-width: 230px !important;
+  padding: 10px 0 16px 0 !important;
+  padding-left: 20px !important;
+  background-color: #101010 !important;
+
+}
+
+.dropdown-item:hover {
+  color: #fff !important;
+}
+
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+.NavDropdownIcon {
+  font-weight: 1000;
+  font-size: 13px;
+  color: #fff !important;
+}
+
+#basic-nav-dropdown {
+  color: #EEEEEE;
+  font-size: 13px !important;
+  padding: 0px 10px;
+}
+
+.NavLinkItem {
+  color: #EEEEEE !important;
+  font-size: 12px !important;
+  padding: 0px 20px !important;
+}
+
+.BandNavbar.Positionchange {
+  background-color: black;
+}
+
+
+
+
+#basic-nav-dropdown:hover {
+  color: #34DDDD !important;
+}
+
+
+.Navbar_ComponentsUlItemsDropdown_Dropbtn {
+  /* font-size: small; */
+  background-color: inherit;
+  color: white;
+  padding: 0px;
+  font-size: 16px;
+  border: none;
+}
+
+.Navbar_ComponentsUlItemsDropdown_Dropbtn button {
+  font-size: inherit;
+}
+
+
+
+
+
+/* @media (max-width: 868px) {
+  .navbar {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 4px;
+  } */
+/* .Artistnavbar .Positionchange{
+float: left;
+
+  } */
+/* @media (max-width: 650px) {
+    .navbar {
+      width: 100%;
+      overflow: hidden;
+      border-radius: 4px;
+      
+    } */
+
+/* } */
+
+/* .Navbar_ComponentsUlItems {
+    margin: 0px 10px;
+    flex-direction: column;
+    /* position: absolute; */
+/* padding: -1px 15px; */
+
+/* top: 0; */
+/* } */
+/* }  */

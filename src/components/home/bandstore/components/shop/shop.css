@@ -1,0 +1,51 @@
+.Shop{
+    height: 500px;
+    padding: 80px 0px;
+    background-color: black;
+
+}
+.ShopType{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.ShopType1{
+    height: 262px;
+    width: 556px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://www.pixel-industry.com/html/musician/musician-html/img/shop/shop-img-01.jpg');
+}
+.ShopType2{
+    height: 262px;
+    width: 556px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://www.pixel-industry.com/html/musician/musician-html/img/shop/shop-img-02.jpg');
+}
+.ShopType1Btn,
+.ShopType2Btn{
+    height: 70px;
+    width: 400px;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    z-index: 2;
+    font-weight: 600;
+}
+
+
+.ShopType1Btn:hover{
+    background-color: #e21f2f;
+    color: #fff;
+}
+.ShopType2Btn:hover{
+    background-color: #e21f2f;
+    color: #fff;
+}

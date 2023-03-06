@@ -1,0 +1,108 @@
+.Table{
+    height: auto;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 90px 20px;
+  }
+  
+  .Table_columns{
+    padding: 5px 0;
+    margin: 0px 100px;
+    /* height: 40px!important; */
+  }
+  .Table_columnsFlex{
+  display: flex;
+  flex-direction: row;
+  }
+  .Table_columnsFlexTitle a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+  }
+  .Table_columnsFlexTitle a:hover{
+    color: #34DDDD;
+  }
+  .Table_columnsFlexButton{
+    margin-left: auto;
+  }
+  .Table_columnsFlexButton1{
+    color: #fff;
+    background-color: #212121;
+    height: 45px;
+    display: inline-block;
+    padding: 6px 22px;
+    margin-bottom: 0;
+    font-size: 13px;
+    font-weight: 600;  
+      text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    font-size: 13px;
+  
+  }
+  .Table_columnsFlexButton1:hover{
+    background-color:  #1197A1;
+   
+  
+  }
+  .Table_columnsDesc{
+    text-align: left;
+    font-size: 12px;
+    padding-bottom:6px ;
+  }
+  .Table_columnsFlexButton2{
+    margin-left: 5px;
+  background-color: #1197A1;
+  width: 60px;
+  height: 45px;
+  
+  }
+
+  .eventLine{
+    opacity: 0.25;
+width: 85%; 
+margin: 15px auto ;
+ }
+
+
+ .Table_heading{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 36px;
+    margin-bottom: 20px;
+ }
+ .Table_Icons{
+  font-size: 20px;
+
+    display: flex;
+    flex-direction: row;
+    height:70px;
+    margin: auto;
+ }
+ .Table_IconsBox1,.Table_IconsBox2,.Table_IconsBox3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  color: #fff;
+    margin: 0 10px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #212121;
+ }
+
+ .Table_IconsBox1:hover{
+  color: #fff;
+  background-color: #3b5998 
+ }
+ .Table_IconsBox2:hover{
+  color: #fff;
+  background-color: #00abf0
+ }
+ .Table_IconsBox3:hover{
+  color: #fff;
+background-color: #dd4b39;
+
+ }

@@ -1,0 +1,14 @@
+.Head{
+    margin: 0;
+height: 300px;
+background-color: #171719;
+}
+
+.Head h1{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 500;
+    padding: 120px 0;
+}

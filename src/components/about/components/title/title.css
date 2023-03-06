@@ -1,0 +1,18 @@
+.Title{
+    background-image: url('https://www.pixel-industry.com/html/musician/musician-html/img/page-titles/music-artist-page-title-02.jpg');
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.Title h1{
+    font-weight: 550;
+    font-size: 40px;
+    padding: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;    
+}

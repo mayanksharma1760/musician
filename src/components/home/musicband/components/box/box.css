@@ -1,0 +1,31 @@
+.Box{
+    background-color: black;
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: auto;
+   padding: 100px 65px;
+   font-family: 'TrashHand', arial;
+
+}
+.BoxItem {
+    font-family: 'TrashHand', arial;
+
+    margin: 5px 20px;
+}
+.BoxItem a {
+    font-family: 'TrashHand', arial;
+
+    text-decoration: none;
+}
+.BoxTitle{
+    font-family: 'TrashHand', arial;
+    font-size: 30px;
+    margin-top: 35px;
+    text-align: center;
+    color: white;
+}
+.BoxItem:hover .BoxTitle{
+    color: #e21f2f;
+}

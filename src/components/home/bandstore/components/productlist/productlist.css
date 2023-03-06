@@ -1,0 +1,46 @@
+.Productlist{
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    padding: 30px 60px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.ProductlistColHeading{
+    display: block;
+    font-size: 21px;
+    font-weight: 500;
+}
+.ProductlistColHeadingLine{
+    display: block;
+    float: left;
+    height: 2px;
+    width: 30px;
+    margin-top: 10px;
+    border: 1px solid  #e21f2f;
+    background-color:  #e21f2f;
+    opacity:1;
+}
+.ProductlistCol{
+    color: #fff;
+    width: 350px;
+    margin: 0 20px;
+    text-align: left;
+}
+.ProductlistColRow{
+    margin: 30px 0;
+display: flex;
+flex-direction: row;
+}
+.ProductlistCol a{
+    margin: 5px 5px ;
+    text-decoration: none;
+    color: #fff;
+}
+.ProductlistCol a:hover{
+    color: #e21f2f;
+}
+.ProductlistColRowPrice{
+    margin: 5px;
+}

@@ -1,0 +1,166 @@
+.Blognews{
+    padding:100px 80px;
+}
+.Blognews img:hover {
+    opacity: 0.9;
+}
+.BlognewsHeading{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.BlognewsHeadingline{
+    width: 30px;
+    margin: 15px auto;
+    border:1px solid  #e21f2f;
+    border-width: 0.01em;
+}
+.BlognewsMainRow{
+    display: flex;
+    flex-direction: row;
+}
+.BlognewsMainRowText{
+    font-weight: 600;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 80px;
+}
+.BlognewsMainRowTextTitle{
+    font-size: 21px;
+    text-decoration: none;
+    color:#171719;
+
+}
+.BlognewsMainRowTextTitle:hover{
+    color: #e21f2f;
+}
+.BlognewsMainRowTextBy{
+    text-transform: uppercase;
+    font-weight: 600;
+    color:#171719;
+    margin-top: 20px;
+    font-size: 12px;
+    margin-bottom: 35px;
+}
+.BlognewsMainRowTextBy a{
+    font-weight: 600;
+    padding: 0 8px;
+    color:#171719;
+    text-decoration: none;
+}
+.BlognewsMainRowTextBy p{
+    font-weight: 600;
+    display: inline;
+    margin-left: 8px;
+
+}
+.BlognewsMainRowTextBy a:hover{
+    color: #e21f2f;
+}
+#BlognewsMainRowTextByActive{
+    color: #e21f2f; 
+}
+.BlognewsMainRowTextDesc{
+    padding-bottom: 20px;
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 300;
+    color: #888888;
+}
+.BlognewsMainRowTextDesc a{
+    text-decoration: none;
+    color: #888888;
+}
+.BlognewsMainRowTextDesc a:hover{
+    color: #e21f2f; 
+}
+.BlognewsMainRowTextBtn{
+    text-decoration: none;
+    display: none;
+    width: 50px;
+    height: 20px;
+    z-index: 100;
+}
+.BlognewsMainRowTextArrow{
+    color: #888888;
+}
+.BlognewsMainRowTextArrow:hover{
+    color: #e21f2f; 
+
+}
+.BlognewsMainRowTextArrow:hover .BlognewsMainRowTextBtn{
+    display: block;
+    color: #e21f2f; 
+}
+
+
+.BlognewsBox{
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+.BlognewsBoxCol{
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.BlognewsBoxColRow{
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+}
+.BlognewsBoxColRowText{
+    color: #171719;
+    font-size: 13px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.BlognewsBoxColRowText p{
+    font-weight: 500;
+
+    display: inline;
+}
+.BlognewsBoxColRowText a{
+    font-weight: 500;
+    color: #e21f2f;
+    text-decoration: none;
+}
+.BlognewsBoxColRowTextTitle{
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.BlognewsBoxColRowTextBtn{
+    text-decoration: none;
+    display: none;
+}
+.BlognewsBoxColRowTextArrow{
+color: #888888!important;
+
+}
+.BlognewsBoxColRowTextArrow :hover{
+    color: #e21f2f;
+}
+    
+
+.BlognewsBoxColRowTextTitle:hover{
+    color: #e21f2f;
+}
+
+.BlognewsBtn{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color:#888888;
+    font-weight: 500;
+    font-size: 12px;
+}
+.BlognewsBtn:hover{
+    color: #e21f2f;
+}

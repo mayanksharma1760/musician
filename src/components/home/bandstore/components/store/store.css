@@ -1,0 +1,79 @@
+.Store{
+    background-color: black;
+    height: 1550px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+   padding: 100px 65px;
+}
+.Store_heading{
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    padding:  60px 0px;
+}
+.Store_box{
+    display: flex;
+    flex-direction: row;
+}
+.Store_boxItem {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 20px;
+}
+.Store_boxItem a {
+    text-decoration: none;
+}
+.Store_boxItemTitle{
+    font-size: 20px;
+    margin-top: 35px;
+    text-align: center;
+    color: white;
+}
+.Store_boxItemPrice{
+    margin-top: 8px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #AAAAAA;
+}
+.Store_boxItemCart{
+    text-align: center;
+    width: 120px;
+    margin:auto ;
+    z-index: 2;
+    display: none;
+    color: #fff;
+    background-color: #e21f2f;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 7px;
+}
+
+.Store_boxItem:hover  .Store_boxItemPrice{
+    display: none;
+}
+.Store_boxItem:hover  .Store_boxItemCart{
+    display: block;
+}
+.Store_boxItem:hover .Store_boxItemTitle{
+    color: #e21f2f;
+}
+.Store_btn{
+    cursor: pointer;
+    /* height: 65px; */
+    width: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "TrashHand", Arial, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+    background-color:#212121;
+    margin: 60px auto;
+    padding: 15px;
+}
+.Store_btn:hover{
+    background-color:#e21f2f;
+}

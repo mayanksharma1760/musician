@@ -1,0 +1,154 @@
+.BandNavbar {
+  height: 55px;
+  width: 100%;
+background-color: inherit ;
+z-index: 1000;
+display: flex!important;
+align-items: center!important;
+}
+/* .BandstoreNavbar{
+  height: 50px;
+  width: 100%;
+  background-color: #333;
+  z-index: 1000;
+} */
+
+.BandNavbar.Positionchange{
+  background-color: black;
+  position: fixed;
+  top: 0;
+}
+.BandNavbar_Title {
+  padding: 10px;
+  padding-bottom: 50px;
+  margin: 50px 50px;
+  margin-right: 270px;
+
+}
+.BandNavbar_Title img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+.dropdown-menu{
+  margin-top: 20px;
+  margin-left: 6px!important;
+  padding: 0!important;
+  margin-right: 8px;
+}
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.dropdown-item{
+  font-size: 13px;
+  text-align: left;
+  color: #AAAAAA!important;
+  min-width: 230px!important;
+  padding: 10px 0 16px 0!important;
+  padding-left: 20px!important;
+  background-color: #101010!important;
+}
+.dropdown-item:hover{
+  color: #fff!important;
+}
+.dropdown-toggle::after{
+  display: none!important;
+}
+.NavDropdownIcon{
+  font-weight: 1000;
+  font-size: 13px;
+  margin-left: 5px;
+  margin-right: 0px!important;
+  color: #fff!important;
+}
+
+.BandNavbarItem{
+  color: #EEEEEE!important;
+  font-size: 12px!important;
+  padding: 0px 0px!important;
+  margin-top: 12px!important;
+  margin-left: 5px!important;
+  padding: 0!important;
+  margin-right: 5px;
+}
+
+.BandNavbarItem:hover{
+  color: #e21f2f!important;
+}
+.NavLink{
+  color: #EEEEEE!important;
+  font-size: 12px!important;
+  padding: 0px 5px!important;
+  margin: 0!important;
+}
+
+.NavLink:hover {
+  color: #e21f2f!important;
+}
+
+
+
+.btn-primary {
+  --bs-btn-bg: none;
+   --bs-btn-border-color: none;
+    position: relative;
+    bottom: -2px;
+    left: 9px;
+}
+.ButtonSearchIcon{
+  font-size: 12px;
+  color: #AAAAAA;
+}
+.btn-primary:hover{
+color:#fff;
+background-color: inherit!important;
+}
+.me-2 {
+  margin-left: 5px;
+  width:140px;
+  position: relative;
+  margin-right: 0.5rem!important;
+  top: 30px;
+  right:140px;
+  padding: 0px 11px;
+  font-size: 12px;
+  color: #AAAAAA!important;
+  background-color: rgba(255, 255, 255, 0.2)!important;
+  border: none!important;
+  border-radius: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .BandNavbar {
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+  }
+
+  .BandNavbar_ComponentsUl {
+    flex-direction: column;
+  }
+
+  .BandNavbar_ComponentsUlItems {
+    margin: 0px 10px;
+    flex-direction: column;
+    /* position: absolute; */
+    /* padding: -1px 15px; */
+
+    top: 0;
+  }
+}

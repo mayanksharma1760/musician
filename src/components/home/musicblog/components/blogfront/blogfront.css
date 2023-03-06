@@ -1,0 +1,145 @@
+
+
+.Blogfront{
+    display: flex;
+    flex-direction: row;
+    }
+    .Blogfront_cell1Btn{
+      display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 2%;
+    left: 87%;
+    }
+    .Blogfront_cell1BtnNext{
+      background-size: 15px;
+      right: 45px;
+      width: 139px;
+      height: 140px;
+      margin-top: 0;
+      border:0.1px solid #333334;
+      background-color: #171719;
+    }
+    .Blogfront_cell1BtnPrev{
+      background-size: 15px;
+      right: 45px;
+      width: 140px;
+      height: 139px;
+      margin-top: 0;
+      border:0.1px solid #333334;
+      background-color: #171719;
+    }
+    .Blogfront_cell1BtnNextIcon,.Blogfront_cell1BtnPrevIcon{
+      
+      font-size: 40px;
+      color: #AAAAAA;
+    }
+    .Blogfront_cell1BtnNext:hover .Blogfront_cell1BtnNextIcon{
+      color: #fff;
+    } 
+    .Blogfront_cell1BtnPrev:hover .Blogfront_cell1BtnPrevIcon{
+      color: #fff;
+    }
+    .Blogfront_cell1Box{
+      display: flex;
+      flex-direction: row;
+      position: relative;
+      top: 41%;
+      left: 95px;
+      height:280px ;
+      width: 80%;
+      background-color: #171719;
+      /* #e21f2f; */
+    }
+    .Blogfront_cell1BoxCol1{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-left: 40px;
+      margin-right: 180px;
+    }
+    .Blogfront_cell1BoxCol2{
+      text-align: left;
+      margin-top: 110px;
+      margin-right: 180px;
+    }
+    .Blogfront_cell1BoxLine{
+      height: 8px;
+    width: 80px;
+    margin: 20px auto;
+    border: 1px solid  #e21f2f;
+    background-color:  #e21f2f;
+    opacity:1;
+    }
+    .Blogfront_cell1BoxDate{
+    }
+    .Blogfront_cell1BoxTitle{
+      color: #fff;
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+    .Blogfront_cell1BoxDesc{
+      font-size: 12px;
+      color: #AAAAAA;
+    }
+        .Blogfront_cell1{
+          width: 1349px;
+          height: 722.125px;
+         color:white;
+           background-image: url('https://www.pixel-industry.com/html/musician/musician-html/img/slider/musician-music-blog-slide-01.jpg');
+         }
+         .Blogfront_cell2{
+          width: 1349px;
+          height: 722.125px;
+           color:white;
+           background-image: url('https://www.pixel-industry.com/html/musician/musician-html/img/slider/musician-music-blog-slide-02.jpg');
+         }
+         
+         .carousel-cell1Desc,.carousel-cell2Desc {
+          position:absolute;
+          left: 0px;
+          top: 330px;
+          margin-left: 100px;
+          /* padding: 10px; */
+          font-size: 18px;
+          line-height: 26px;
+         }
+         .carousel-cell1Heading,.carousel-cell2Heading {
+          position: absolute;
+          left: 0px;
+          top: 370px;
+          margin-left: 100px;
+          padding: 0px;
+          font-size: 60px;
+          line-height: 72px;
+         }
+         .carousel-cell1Desc2 ,.carousel-cell2Desc2{
+          position: absolute;
+          left: 0px;
+        top: 460px;
+        margin-left: 100px;
+        padding: 0px;
+        font-size: 18px;
+        line-height: 26px;
+         }
+         .carousel-cell1Button,.carousel-cell2Button{
+          background-color:inherit!important;
+          position: absolute;
+          left: 0px;
+        top: 550px;
+        margin-left: 100px;
+        padding: 15px 50px;
+        font-size: 12px;
+        line-height: 26px;
+        color: white;
+        border-color: white;
+         }
+        
+         .carousel-cell1Button:hover,.carousel-cell2Button:hover{
+           border:2px solid #34DDDD;
+           color: #34DDDD;
+         }
+        
+        
+         
+     

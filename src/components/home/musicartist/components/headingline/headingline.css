@@ -1,0 +1,17 @@
+.Headingline{
+    height: 2px;
+    width: 30px;
+    margin: 20px auto;
+    border: 1px solid #34DDDD;
+    opacity:1;
+}
+
+.HeadinglineRed{
+    height: 2px;
+    width: 30px;
+    margin: 20px auto;
+    border: 1px solid  #e21f2f;
+    background-color:  #e21f2f;
+    opacity:1;
+    
+}

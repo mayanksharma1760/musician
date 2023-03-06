@@ -1,0 +1,136 @@
+.Contactbox {
+    height: 950px;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    padding: 100px 100px;
+    justify-content: center;
+}
+
+.Contactbox_booking {
+    float: left;
+    flex: 1.5;
+    text-align: left;
+}
+
+.Contactbox_booking p {
+    margin-top: 5px;
+    color: #EEEEEE;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.Contactbox_bookingId {
+    padding-top: 50px;
+    display: block;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.Contactbox_bookingHeading {
+    font-size: 30px;
+}
+
+.Contactbox_message {
+    float: left;
+    text-align: left;
+    flex: 2.5;
+}
+
+.Contactbox_message p {
+    margin-left: 0px;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.Contactbox_messageHeading {
+    font-size: 30px;
+
+}
+
+.Contactbox_bookingHeadingLine,
+.Contactbox_messageHeadingLine {
+    float: left;
+    height: 2px;
+    width: 30px;
+    margin-top: 10px;
+    border: 1px solid #34DDDD;
+    opacity: 1;
+}
+
+.Contactbox_messageInputs {
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    padding: 0;
+}
+
+.Contactbox_messageInputs input {
+    box-sizing: border-box;
+    color: #fff;
+    text-align: left;
+    height: 60px;
+    font-size: 13px;
+    background-color: inherit;
+    padding: 10px 20px;
+    margin-bottom: 35px;
+    border: .1px solid #333333;
+    width: 100%;
+
+}
+
+.Contactbox_messageInputsCol1 {
+    text-align: left;
+    width: 60%;
+    margin-right: 35px;
+}
+
+.Contactbox_messageInputsCol2 {
+    text-align: left;
+    width: 60%;
+
+}
+
+.Contactbox_messageText {
+    border: .1px solid #333333;
+
+    color: #fff;
+    padding: 15px 20px;
+    font-size: 13px;
+    background-color: inherit;
+    margin-left: 0;
+    width: 100%;
+    resize: none;
+    height: 240px;
+    margin-bottom: 30px;
+}
+
+.Contactbox_messageBtn {
+    margin-top: 20px;
+    float: right;
+    padding: 13px 30px;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #fff;
+    font-size: 13px;
+    border: none;
+    width: 100%;
+    font-size: 15px;
+    background-color: #14AEBA;
+}
+
+.Contactbox_messageBtn:hover {
+    background-color: #1197A1;
+}
+
+.Contactbox_messageCaptcha {
+    /* margin-bottom: 15px; */
+}
+
+.Captcha {
+    height: 40px;
+    display: block !important;
+}
