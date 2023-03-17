@@ -13,6 +13,7 @@ import Gallery from './components/gallery/Gallery';
 import Contact from './components/contact/Contact';
 import Bandstore from './components/home/bandstore/Bandstore';
 import Musicblog from './components/home/musicblog/Musicblog';
+import { Path } from 'react-router-dom';
 function App(props) {
   return (
 
@@ -32,6 +33,8 @@ function App(props) {
           <Route exact path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
+    
+
 
     </div>
   );
