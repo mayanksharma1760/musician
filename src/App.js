@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import React, { Component }  from 'react';
 import Musicartist from './components/home/musicartist/Musicartist.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -13,7 +14,7 @@ import Gallery from './components/gallery/Gallery';
 import Contact from './components/contact/Contact';
 import Bandstore from './components/home/bandstore/Bandstore';
 import Musicblog from './components/home/musicblog/Musicblog';
-import { Path } from 'react-router-dom';
+// import { Path } from 'react-router-dom';
 function App(props) {
   return (
 
