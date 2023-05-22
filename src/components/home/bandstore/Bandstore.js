@@ -16,7 +16,6 @@ const Bandstore = () => {
     <div className='Bandstore'>
       <Loader />
       <Smallnavbar />
-
       <Bandfront />
       <Shop />
       <Store />

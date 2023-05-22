@@ -10,6 +10,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import {LinkContainer} from 'react-router-bootstrap'
+
 function BandNavbar({type}) {
   const [open, setOpen] = useState(false);
 
@@ -39,22 +41,22 @@ function BandNavbar({type}) {
       <Nav  className="me-auto" >
           
           <NavDropdown className='BandNavbarItem' title={<span className='NavDropdownItem'>HOME<BsChevronCompactDown className='NavDropdownIcon' /></span>} id="basic-nav-dropdown" renderMenuOnMount={true}>
-            <NavDropdown.Item href="/">Music Artist</NavDropdown.Item>
-            <NavDropdown.Item href="/musicband">Music Band</NavDropdown.Item>
-            <NavDropdown.Item href="/musicblog">Music Blog</NavDropdown.Item>
-            <NavDropdown.Item href="/bandstore">Band Store</NavDropdown.Item>
+        <NavDropdown.Item href="/musicartist">Music Artist</NavDropdown.Item>
+        <NavDropdown.Item href="/musicband">Music Band</NavDropdown.Item>
+        <NavDropdown.Item href="/musicblog">Music Blog</NavDropdown.Item>
+        <NavDropdown.Item href="/bandstore">Band Store</NavDropdown.Item>
           </NavDropdown>
 
           <NavDropdown className='BandNavbarItem' title={<span className='NavDropdownItem'>ABOUT<BsChevronCompactDown className='NavDropdownIcon' /></span>} id="basic-nav-dropdown" renderMenuOnMount={true}>
-            <NavDropdown.Item href="/musicband">ABOUT THE BAND</NavDropdown.Item>
-            <NavDropdown.Item href="/musicband">ABOUT ARTIST BAND MEMBER</NavDropdown.Item>
+            <NavDropdown.Item href="#">ABOUT THE BAND</NavDropdown.Item>
+            <NavDropdown.Item href="#">ABOUT ARTIST BAND MEMBER</NavDropdown.Item>
           </NavDropdown>
 
           <NavDropdown className='BandNavbarItem' title={<span className='NavDropdownItem'>MEDIA<BsChevronCompactDown className='NavDropdownIcon' /></span>} id="basic-nav-dropdown" renderMenuOnMount={true}>
-            <NavDropdown.Item href="#">MUSIC ALBUM VIEW</NavDropdown.Item>
-            <NavDropdown.Item href="#">MUSIC GRID VIEW</NavDropdown.Item>
-            <NavDropdown.Item href="#">MUSIC ALBUM SINGLE CREATIVE</NavDropdown.Item>
-            <NavDropdown.Item href="#">VIDEO GRID</NavDropdown.Item>
+            <LinkContainer ><NavDropdown.Item href="#">MUSIC ALBUM VIEW</NavDropdown.Item></LinkContainer>
+            <LinkContainer ><NavDropdown.Item href="#">MUSIC GRID VIEW</NavDropdown.Item></LinkContainer>
+            <LinkContainer ><NavDropdown.Item href="#">MUSIC ALBUM SINGLE CREATIVE</NavDropdown.Item></LinkContainer>
+            <LinkContainer ><NavDropdown.Item href="#">VIDEO GRID</NavDropdown.Item></LinkContainer>
           </NavDropdown>
 
           <NavDropdown className='BandNavbarItem' title={<span className='NavDropdownItem'>EVENTS<BsChevronCompactDown className='NavDropdownIcon' /></span>} id="basic-nav-dropdown" renderMenuOnMount={true}>

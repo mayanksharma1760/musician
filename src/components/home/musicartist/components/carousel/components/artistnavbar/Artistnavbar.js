@@ -7,6 +7,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import {LinkContainer} from 'react-router-bootstrap'
 function Artistnavbar() {
   const [Scroll, setScroll] = useState(false);
   const [colorChange, setColorchange] = useState(false);
@@ -32,28 +33,27 @@ function Artistnavbar() {
 
             <NavDropdown className='ArtistnavbarItem' title={<span>HOME<BsChevronCompactDown className='NavDropdownIcon' /></span>} id="basic-nav-dropdown" renderMenuOnMount={true}>
 
-              <NavDropdown.Item className='ArtistnavbarItemDropdown' href="/">Music Artist</NavDropdown.Item>
-              <NavDropdown.Item className='ArtistnavbarItemDropdown' href="/musicband">Music Band</NavDropdown.Item>
-              <NavDropdown.Item className='ArtistnavbarItemDropdown' href="/musicblog">Music Blog</NavDropdown.Item>
-              <NavDropdown.Item className='ArtistnavbarItemDropdown' href="/bandstore">Band Store</NavDropdown.Item>
-
+            <LinkContainer to="/"><NavDropdown.Item className='ArtistnavbarItemDropdown'>Music Artist</NavDropdown.Item></LinkContainer>
+            <LinkContainer to="/musicband"><NavDropdown.Item className='ArtistnavbarItemDropdown'>Music Band</NavDropdown.Item></LinkContainer>
+            <LinkContainer to="/musicblog"><NavDropdown.Item className='ArtistnavbarItemDropdown'>Music Blog</NavDropdown.Item></LinkContainer>
+            <LinkContainer to="/bandstore"><NavDropdown.Item className='ArtistnavbarItemDropdown'>Band Store</NavDropdown.Item></LinkContainer>
             </NavDropdown>
 
 
-            <Nav.Link className='ArtistnavbarItem' href="/aboutpage">ABOUT</Nav.Link>
+            <LinkContainer to="/aboutpage"><Nav.Link className='ArtistnavbarItem'>ABOUT</Nav.Link></LinkContainer>
 
             <NavDropdown className='ArtistnavbarItem' title={<span>LISTEN<BsChevronCompactDown className='NavDropdownIcon' /></span>} id="basic-nav-dropdown" renderMenuOnMount={true}>
-              <NavDropdown.Item href="/albumview">Album View</NavDropdown.Item>
-              <NavDropdown.Item href="/albumsingle">Album Single</NavDropdown.Item>
+              <LinkContainer to="/albumview"><NavDropdown.Item >Album View</NavDropdown.Item></LinkContainer>
+              <LinkContainer to="/albumsingle"><NavDropdown.Item >Album Single</NavDropdown.Item></LinkContainer>
             </NavDropdown>
 
             <NavDropdown className='ArtistnavbarItem' title={<span>EVENTS<BsChevronCompactDown className='NavDropdownIcon' /></span>} id="basic-nav-dropdown" renderMenuOnMount={true}>
-              <NavDropdown.Item href="/eventsclean">Events Clean</NavDropdown.Item>
-              <NavDropdown.Item href="/eventssingleclean">Events Single Clean</NavDropdown.Item>
+              <LinkContainer to="/eventsclean"><NavDropdown.Item >Events Clean</NavDropdown.Item></LinkContainer>
+              <LinkContainer to="/eventssingleclean"><NavDropdown.Item >Events Single Clean</NavDropdown.Item></LinkContainer>
             </NavDropdown>
 
-            <Nav.Link className='ArtistnavbarItem' href="/gallery">GALLERY</Nav.Link>
-            <Nav.Link className='ArtistnavbarItem' href="/contact">CONTACT</Nav.Link>
+            <LinkContainer to="/gallery"><Nav.Link className='ArtistnavbarItem'>GALLERY</Nav.Link></LinkContainer>
+            <LinkContainer to="/contact"><Nav.Link className='ArtistnavbarItem'>CONTACT</Nav.Link></LinkContainer>
 
 
           </Nav>
