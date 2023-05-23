@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import Loader from '../musicartist/components/loader/Loader'
+// import Loader from '../musicartist/components/loader/Loader'
 import Blogfooter from './components/blogfooter/Blogfooter'
 import Blogfront from './components/blogfront/Blogfront'
 import Blogmail from './components/blogmail/Blogmail'
@@ -14,7 +14,7 @@ const Musicblog = () => {
   });
   return (
     <div className='Musicblog'>
-      <Loader />
+      {/* <Loader /> */}
     <Blognavbar/>
       <Blogfront />
       <Blognews />

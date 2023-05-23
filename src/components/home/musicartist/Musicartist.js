@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import "./musicartist.css"
-import Loader from './components/loader/Loader.js'
+// import Loader from './components/loader/Loader.js'
 import Carousel from './components/carousel/Carousel'
 import About from './components/about/About'
 import Quote from './components/quote/Quote.js'
@@ -20,7 +20,7 @@ const Musicartist = () => {
   return (
     <>
 
-      <Loader />
+      {/* <Loader /> */}
       <div className='Musicartist'>
 
         <Carousel />

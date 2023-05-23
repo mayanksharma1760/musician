@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import Footer from '../musicartist/components/footer/Footer'
-import Loader from '../musicartist/components/loader/Loader'
+// import Loader from '../musicartist/components/loader/Loader'
 import Mail from '../musicband/components/mail/Mail'
 import Smallnavbar from '../musicband/components/smallnavbar/Smallnavbar'
 import './bandstore.css'
@@ -14,7 +14,7 @@ const Bandstore = () => {
   });
   return (
     <div className='Bandstore'>
-      <Loader />
+      {/* <Loader /> */}
       <Smallnavbar />
       <Bandfront />
       <Shop />

@@ -10,7 +10,7 @@ import Buzz from './components/buzz/Buzz'
 import Feature from './components/feature/Feature'
 import Mail from './components/mail/Mail'
 import Footer from '../musicartist/components/footer/Footer'
-import Loader from '../musicartist/components/loader/Loader'
+// import Loader from '../musicartist/components/loader/Loader'
 
 const Musicband = () => {
   useEffect(() => {
@@ -18,7 +18,7 @@ const Musicband = () => {
   });
   return (
     <div className='Musicband'>
-      <Loader />
+      {/* <Loader /> */}
       <Smallnavbar />
 
       <Front />

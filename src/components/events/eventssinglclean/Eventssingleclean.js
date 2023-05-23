@@ -4,7 +4,7 @@ import Footer from '../../home/musicartist/components/footer/Footer'
 import Head from '../../listen/album single/components/head/Head'
 import Detail from './components/detail/Detail'
 import './eventssingleclean.css'
-import Loader from '../../home/musicartist/components/loader/Loader'
+// import Loader from '../../home/musicartist/components/loader/Loader'
 
 
 const Eventssingleclean = () => {
@@ -13,7 +13,7 @@ const Eventssingleclean = () => {
   });
   return (
     <div className='Eventssingleclean'>
-      <Loader />
+      {/* <Loader /> */}
       <Head head='London Manifesto Late Spring Tour' />
       <Detail />
       <Mail />

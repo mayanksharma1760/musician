@@ -4,7 +4,7 @@ import Desc from './components/desc/Desc'
 import Mail from '../../home/musicartist/components/mail/Mail'
 import Footer from '../../home/musicartist/components/footer/Footer'
 import Head from './components/head/Head'
-import Loader from '../../home/musicartist/components/loader/Loader'
+// import Loader from '../../home/musicartist/components/loader/Loader'
 
 const Albumsingle = () => {
   useEffect(() => {
@@ -12,7 +12,7 @@ const Albumsingle = () => {
   });
   return (
     <div className='Albumsingle'>
-      <Loader />
+      {/* <Loader /> */}
       <Head head='Live From London'/>
       <Desc />
       <Mail />
