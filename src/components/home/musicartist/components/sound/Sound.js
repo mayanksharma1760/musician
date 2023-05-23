@@ -1,10 +1,8 @@
-import React ,{useState }from 'react'
+import React from 'react'
 import "./sound.css"
 import Fade from 'react-reveal/Fade';
-import Roll from 'react-reveal/Roll';
 import Headingline from '../headingline/Headingline';
 import { HiMusicNote } from 'react-icons/hi';
-import { Reveal } from 'react-reveal';
 
 const Sound = () => {  
   return (

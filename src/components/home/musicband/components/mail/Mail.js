@@ -1,5 +1,6 @@
-import { faXmark } from '@fortawesome/free-solid-svg-icons';
 import React ,{useState}from 'react'
+import { faXmark } from '@fortawesome/free-solid-svg-icons';
+
 import './mail.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const Mail = () => {

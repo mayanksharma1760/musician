@@ -1,6 +1,6 @@
+import React  from 'react';
 import logo from './logo.svg';
 import './App.css';
-import React  from 'react';
 import Musicartist from './components/home/musicartist/Musicartist.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -22,16 +22,16 @@ function App(props) {
       <BrowserRouter>
         <Routes>
           <Route exact path="/" element={<Musicartist />} />
-          <Route exact path="/musicband" element={<Musicband />} />
-          <Route exact path="/musicblog" element={<Musicblog />} />
-          <Route exact path="/bandstore" element={<Bandstore />} />
-          <Route exact path="/aboutpage" element={<Aboutpage />} />
-          <Route exact path="/albumview" element={<Albumview />} />
-          <Route exact path="/albumsingle" element={<Albumsingle />} />
-          <Route exact path="/eventsclean" element={<Eventsclean />} />
-          <Route exact path="/eventssingleclean" element={<Eventssingleclean />} />
-          <Route exact path="/gallery" element={<Gallery />} />
-          <Route exact path="/contact" element={<Contact />} />
+          <Route exact path="/musicband" element={<Musicband/>}/>
+          <Route exact path="/musicblog" element={<Musicblog/>}/>
+          <Route exact path="/bandstore" element={<Bandstore/>}/>
+          <Route exact path="/aboutpage" element={<Aboutpage/>}/>
+          <Route exact path="/albumview" element={<Albumview/>}/>
+          <Route exact path="/albumsingle" element={<Albumsingle/>}/>
+          <Route exact path="/eventsclean" element={<Eventsclean/>}/>
+          <Route exact path="/eventssingleclean" element={<Eventssingleclean/>}/>
+          <Route exact path="/gallery" element={<Gallery/>}/>
+          <Route exact path="/contact" element={<Contact/>}/>
         </Routes>
       </BrowserRouter>
     
